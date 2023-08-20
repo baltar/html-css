@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cobra</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Você está vendo uma imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência. &#x1F92F</p>
+
+    <picture>
+        <source media="(max-width:580px)" srcset="imagens/santa300.png" type="image/png">
+        <source media="(max-width:860px)" srcset="imagens/santa600.png" type="image/png">
+        <img src="imagens/santa1000.png" alt="santa1000">
+    </picture>
+</body>
+</html>
